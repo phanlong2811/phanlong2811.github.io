@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ABOUT ME]
+title: ABOUT ME
 date: 30-05-2019
 comments: false
 ---
