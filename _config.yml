@@ -1,14 +1,14 @@
 # Site
 title:              Phan Long
-bio:                'A student from CTB'
-description:        "Don't follow your dream, follow me."
+bio:                'Don't follow your dream, follow me.'
+description:        "A student from CTB."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://taylantatli.github.io/Moon
+url:                https://www.facebook.com/ptl8210
 
 # Jekyll
 permalink:          /:title/
