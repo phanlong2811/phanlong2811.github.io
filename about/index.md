@@ -5,7 +5,7 @@ date: 30-05-2019
 comments: false
 ---
     
-<center> Mình là Phan Thành Long, một học sinh đến từ Chuyên Thái Bình <3 </center>
+<center><b> Mình là Phan Thành Long, một học sinh đến từ Chuyên Thái Bình <3 </b></center>
 
 ## Blog này viết gì??
 * Thuật toán
