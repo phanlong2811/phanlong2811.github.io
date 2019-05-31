@@ -13,6 +13,7 @@ comments: true
 > In order to understand recursion, one must first understand recursion.
 
 Khái niệm **đệ quy** đối với một lập trình viên ban đầu rất khó hiểu, vì thế ta hãy xét một vài ví dụ cụ thể trước khi đi vào khái niệm hoàn chỉnh của nó!
+
 > *Giả sử bạn đi đến phòng ngủ để thay quần áo, nhanh chóng để đi làm cho kịp giờ. Nhưng bạn thấy phòng bị khóa, và bạn biết rằng con trai 3 tuổi của mình giấu chúng trong một chiếc hộp. Mở hộp ra, bạn thấy nó bao gồm nhiều chiếc hộp con khác nữa mà bên trong chúng gồm nhiều chiếc hộp nhỏ hơn. Bạn bối rối và cần tìm cách giải quyết nhanh chóng để không bị muộn làm*
 
 - Muốn xử lý vấn đề này, ta có 2 cách tiếp cận : "**lặp**" *(loop)* và "**đệ quy**" *(recursion)*  để tạo nên một thuật toán.
@@ -22,6 +23,7 @@ Khái niệm **đệ quy** đối với một lập trình viên ban đầu rấ
   - **Trường hợp 2** : Nhưng nếu xui xẻo, bạn lại tìm thấy những chiếc hộp khác, hãy đặt vào đống hộp và làm tương tự!
 
 > *Mình sẽ minh hoạt bằng mã giả C++ như sau, sử dụng một hàng đợi để lưu đống hộp*:
+
 ``` cpp
 void look_for_key()
 {
@@ -62,12 +64,15 @@ void look_for_key(box)
 ## 2. Cơ chế đệ quy trong tin học
 Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không đơn giản và làm bạn nản :< Hãy cố gắng lên vì rất nhiều thuật toán sử dụng **đệ quy** trong tin học. Chúng ta sẽ xét thêm một ví dụ được ứng dụng của **đệ quy**, đó là cơ chế **stack** khi gọi các hàm
 >*"Trong **khoa học máy tính**, một ngăn xếp (còn gọi là bộ xếp chồng, tiếng Anh: **stack**) là một cấu trúc dữ liệu trừu tượng hoạt động theo nguyên lý "vào sau ra trước" (Last In First Out (LIFO)"* - Wikipedia.
+
 - **Đệ quy** thường sử dụng cơ chế stack **LIFO** - vào sau ra trước khi thực hiện gọi các hàm.
 - Khi một hàm đệ quy được gọi sau, nó sẽ đặt vào đầu ngăn xếp. Tưởng tượng bạn có một chồng sách, khi đặt lên hay bỏ ra một cuốn sách, bạn luôn ưu tiên cuốn sách trên cùng.
 ![stack](https://visualgo.net/img/stack_illustration.png)
 ##### Cùng xét một ví dụ cụ thể liên quan đến *toán học*, tính giai thừa! 
 Chúng ra cũng có 2 cách tiếp cận, duyệt và *đệ quy*, nhưng ở đây ta chỉ xét đến các tiếp cận về **đệ quy**! Tôi sẽ chỉ cho bạn cơ chế hoạt động của stack trong hàm gọi đệ quy! Đầu tiên, tôi sẽ viết hàm đệ quy tính giai thừa của 1 số! 
+
 > VD: Giai thừa của 5 sẽ được tính như sau `factorial (5) =  5 * 4 * 3 * 2 * 1 = 5!`
+
 ``` cpp
 int fact(int x) // factorial
 {
