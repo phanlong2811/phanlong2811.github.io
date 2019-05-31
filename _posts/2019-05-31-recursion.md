@@ -44,6 +44,7 @@ void look_for_key()
 }
 ```
 - Cách tiếp cận thứ hai, chúng ta sẽ sử dụng **đệ quy**. Luôn nhớ rằng đệ quy là một hàm gọi lại chính nó.
+
 ``` cpp
 // init ok = false;
 void look_for_key(box)
