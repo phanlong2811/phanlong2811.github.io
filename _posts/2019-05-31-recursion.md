@@ -6,7 +6,8 @@ excerpt: "Phan Long"
 tags: [recursion]
 comments: true
 ---
-#Đệ quy là gì?
+
+# Đệ quy là gì?
 *Chào các bạn, do dạo này mình hơi chán nên mình sẽ viết bài hướng dẫn cho các bạn cho đỡ buồn :< Nào let's start!*
 ## 1. Khái niệm về đệ quy
 > In order to understand recursion, one must first understand recursion.
