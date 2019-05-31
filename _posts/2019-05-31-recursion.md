@@ -14,11 +14,13 @@ comments: true
 
 Khái niệm **đệ quy** đối với một lập trình viên ban đầu rất khó hiểu, vì thế ta hãy xét một vài ví dụ cụ thể trước khi đi vào khái niệm hoàn chỉnh của nó!
 > *Giả sử bạn đi đến phòng ngủ để thay quần áo, nhanh chóng để đi làm cho kịp giờ. Nhưng bạn thấy phòng bị khóa, và bạn biết rằng con trai 3 tuổi của mình giấu chúng trong một chiếc hộp. Mở hộp ra, bạn thấy nó bao gồm nhiều chiếc hộp con khác nữa mà bên trong chúng gồm nhiều chiếc hộp nhỏ hơn. Bạn bối rối và cần tìm cách giải quyết nhanh chóng để không bị muộn làm*
+
 - Muốn xử lý vấn đề này, ta có 2 cách tiếp cận : "**lặp**" *(loop)* và "**đệ quy**" *(recursion)*  để tạo nên một thuật toán.
 ![Lặp và đệ quy](https://cdn-images-1.medium.com/max/800/1*QrQ5uFKIhK3jQSFYeRBIRg.png)
 - Ở cách tiếp cận thứ nhất ta sử dụng một vòng lặp. Cho đến khi không còn chiếc hộp, bạn sẽ lấy ra 1 chiếc hộp từ đống hộp và mở nó ra. 
   - **Trường hợp 1** : Nếu bạn tìm thấy chìa khóa :v Xin chúc mừng bạn đã thành công!
   - **Trường hợp 2** : Nhưng nếu xui xẻo, bạn lại tìm thấy những chiếc hộp khác, hãy đặt vào đống hộp và làm tương tự!
+
 > *Mình sẽ minh hoạt bằng mã giả C++ như sau, sử dụng một hàng đợi để lưu đống hộp*:
 ``` cpp
 void look_for_key()
