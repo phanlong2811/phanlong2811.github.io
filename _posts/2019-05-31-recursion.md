@@ -4,7 +4,7 @@ title: "Đệ quy là gì?"
 date: 2019-05-31
 excerpt: "Phan Long"
 tags: [recursion]
-comments: true
+comments: false
 ---
 
 # Đệ quy là gì?
