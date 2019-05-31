@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Đệ quy là gì?"
-date: 31-05-2019
+date: 2019-31-05
 excerpt: "Phan Long"
 tags: [recursion]
 comments: true
