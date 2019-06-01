@@ -142,4 +142,4 @@ Trong hàm đệ quy luôn có điều kiện tạo nên điểm dừng cho đ�
 
 [2. Recursion - Wikipedia](https://en.wikipedia.org/wiki/Recursion)
 
-## Nếu bạn đọc xong bài này mà vẫn chưa hiểu đệ quy là gì :> bây giờ hãy xem phần 2 của mình tại [đây](https://phanlong2811.github.io/recursion-2) nhé! 
+## Nếu bạn đọc xong bài này mà vẫn chưa hiểu đệ quy là gì :> vậy hãy xem phần 2 của mình tại [đây](https://phanlong2811.github.io/recursion-2) nhé! 
