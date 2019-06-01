@@ -2,7 +2,7 @@
 layout: post
 title: "Phần 1 : Đệ quy là gì?"
 date: 2019-05-31
-excerpt: "Phan Long"
+excerpt: "Đệ quy là cái mẹ gì :<"
 tags: [recursion]
 comments: false
 ---
