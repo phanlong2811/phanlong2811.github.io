@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Đệ quy là gì?"
+title: "Phần 1 : Đệ quy là gì?"
 date: 2019-05-31
 excerpt: "Phan Long"
 tags: [recursion]
 comments: false
 ---
 
-# Đệ quy là gì?
+# Phần 1 : Đệ quy là gì?
 *Chào các bạn, do dạo này mình hơi chán nên mình sẽ viết bài hướng dẫn cho các bạn cho đỡ buồn :< Nào let's start!*
 ## 1. Khái niệm về đệ quy
 > In order to understand recursion, one must first understand recursion.
@@ -67,7 +67,7 @@ void look_for_key(box)
 
 ## 2. Cơ chế đệ quy trong tin học
 
-Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không đơn giản và làm bạn nản :< Hãy cố gắng lên vì rất nhiều thuật toán sử dụng **đệ quy** trong tin học. Chúng ta sẽ xét thêm một ví dụ được ứng dụng của **đệ quy**, đó là cơ chế **stack** khi gọi các hàm
+Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không đơn giản và làm bạn nản :< Hãy cố gắng lên vì rất nhiều thuật toán sử dụng **đệ quy** trong tin học. Chúng ta sẽ xét cachs hoạt động của **đệ quy**, đó là cơ chế **stack** khi gọi các hàm
 
 >*"Trong **khoa học máy tính**, một ngăn xếp (còn gọi là bộ xếp chồng, tiếng Anh: **stack**) là một cấu trúc dữ liệu trừu tượng hoạt động theo nguyên lý "vào sau ra trước" (Last In First Out (LIFO)"* - Wikipedia.
 
@@ -94,6 +94,7 @@ int fact(int x) // factorial
 ![illustration](https://cdn-images-1.medium.com/max/800/1*YRkMsMPRFAt8Y9BiC0QVDg.png)
 
  **Giải thích** : 
+ 
     - `fact(3)` -> hàm kiểm tra  x có bằng 1 hay không, nhưng ở đây x = 3 nên biểu thức logic `x == 1` sẽ có kết quả là `false`. Khi này, hàm sẽ gọi hàm `fact(x-1)` nghĩa là `fact(2)`
     - Lúc này, hàm được gọi `fact(2)` sẽ được đặt lên đầu stack. Ta tiếp tục thực hiện.
 
@@ -122,16 +123,8 @@ Trong hàm đệ quy luôn có điều kiện tạo nên điểm dừng cho đ�
 >*"Ngày đầu tiên tôi bước vào lớp, tôi bị sốc. Bạn tôi đố nhau về toán học và tin học. Đi đâu tôi cũng nghe cái từ “lệ quy”. Bài nào cũng giải được bằng “lệ quy”. Tôi thấy cái từ này sao nó hay, nó đẹp thế. Mãi sau này tôi mới biết là tôi nghe nhầm từ “đệ quy”."*- trích 
 > [Tôi đã học tin học như thế nào? - VNOI](http://vnoi.info/wiki/algo/basic/hoc-tin-the-nao-1)
 
-
-
-
-
-
-
-
-
-
-
+- Đệ quy được sử dụng trong hầu hết nhiều thuật toán quan trọng và các cấu trúc dữ liệu như Segment Tree/Interval Tree, cây BIT, các thuật toán trên đồ thị như BFS, DFS.
+- Phần tiếp theo mình sẽ hướng dẫn các bạn 1 kĩ thuật phát triển của đệ quy, là nền tảng cho **QHĐ - dynamic programing**, một kĩ thuật khá phổ biến và giải quyết được nhiều bài toán khó!
 
 ### *Nguồn tham khảo*
 [1. How Recursion Works — explained with flowcharts and a video](https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/?fbclid=IwAR0BuND5qACD4EGKJJ2VUvgHSIR8ciO8bAF1Qql8LsphTltUGIDjXIAxkBk)
