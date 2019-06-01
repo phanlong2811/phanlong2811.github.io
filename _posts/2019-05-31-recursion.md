@@ -6,7 +6,8 @@ excerpt: "Đệ quy là cái mẹ gì :<"
 tags: [recursion]
 comments: false
 ---
-![Vớ vẩn](https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/61442034_2393975734169724_7749619906915598336_o.jpg?_nc_cat=111&_nc_oc=AQkz4wXDMr4_hXGyX2sRR10D8US-y5tn14759o-bSeaJbYMCxGDgFNfhhx1zhHBwrtItmYa9v45RB0QgRG9izB_x&_nc_ht=scontent.fhph1-1.fna&oh=cdb302c4e6992c07e339e6a521315e12&oe=5D9EA330)
+<a href="https://www.facebook.com/ptl8210/posts/2234000946833871" target="_blank"><img src="https://scontent.fhph1-2.fna.fbcdn.net/v/t1.0-9/61622081_2393975730836391_4739488860583493632_n.jpg?_nc_cat=103&_nc_oc=AQm6Lcf9EqU_otXzUHz5qmiWwYD3Vc7RszWrOfnXnIAF1vnDPFXT96J1LePTwfipecbrPsdY1ZxTUhqhTB083sNO&_nc_ht=scontent.fhph1-2.fna&oh=c0a48d65a9df0022b9dc4e232a91092c&oe=5D52A7EF" alt="Vớ vẩn time" /></a>
+
 
 *Chào các bạn, do dạo này mình hơi chán nên mình sẽ viết bài hướng dẫn cho các bạn cho đỡ buồn :< Nào let's start!*
 
