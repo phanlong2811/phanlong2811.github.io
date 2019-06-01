@@ -8,6 +8,8 @@ comments: false
 ---
 
 *Chào các bạn, do dạo này mình hơi chán nên mình sẽ viết bài hướng dẫn cho các bạn cho đỡ buồn :< Nào let's start!*
+
+
 ## 1. Khái niệm về đệ quy
 > In order to understand recursion, one must first understand recursion.
 
@@ -64,6 +66,8 @@ void look_for_key(box)
 
 > **Đệ quy** là phương pháp sử dụng trong chương trình máy tính trong đó sử dụng một hàm gọi lại chính nó.
 
+![Ví dụ về đệ quy](https://media.giphy.com/media/39t0oKaT84gHgM2E63/giphy.gif)
+
 ## 2. Cơ chế đệ quy trong tin học
 
 Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không đơn giản và làm bạn nản :< Hãy cố gắng lên vì rất nhiều thuật toán sử dụng **đệ quy** trong tin học. Chúng ta sẽ xét cachs hoạt động của **đệ quy**, đó là cơ chế **stack** khi gọi các hàm
@@ -92,7 +96,7 @@ int fact(int x) // factorial
 
 ![illustration](https://cdn-images-1.medium.com/max/800/1*YRkMsMPRFAt8Y9BiC0QVDg.png)
 
- **Giải thích** : 
+ - **Giải thích** : 
  
     - `fact(3)` -> hàm kiểm tra  x có bằng 1 hay không, nhưng ở đây x = 3 nên biểu thức logic `x == 1` sẽ có kết quả là `false`. Khi này, hàm sẽ gọi hàm `fact(x-1)` nghĩa là `fact(2)`
     - Lúc này, hàm được gọi `fact(2)` sẽ được đặt lên đầu stack. Ta tiếp tục thực hiện.
@@ -123,6 +127,10 @@ Trong hàm đệ quy luôn có điều kiện tạo nên điểm dừng cho đ�
 > [Tôi đã học tin học như thế nào? - VNOI](http://vnoi.info/wiki/algo/basic/hoc-tin-the-nao-1)
 
 - Đệ quy được sử dụng trong hầu hết nhiều thuật toán quan trọng và các cấu trúc dữ liệu như Segment Tree/Interval Tree, cây BIT, các thuật toán trên đồ thị như BFS, DFS.
+- Chú ý tới những đặc điểm quan trọng : đó là điều kiện dừng của đệ quy, hãy nhớ thật kĩ, nếu không có điều kiện dừng, bạn sẽ không thể thoát khỏi đệ quy :v
+
+![Ví dụ về đệ quy](https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/33788776_2043965972590796_7349119704121737216_n.jpg?_nc_cat=102&_nc_oc=AQmyRMZGnYKycVG-ker0hWNEPLj7rSA_L5IopOLN1FUTwhRz8PlwYvcsVtDFvStP8BNrMeWgd86DO_o3wHHfZjyA&_nc_ht=scontent.fhph1-1.fna&oh=dc1c28378e6d92da40e22c4c06f9a312&oe=5D5A1634)
+
 - Phần tiếp theo mình sẽ hướng dẫn các bạn 1 kĩ thuật phát triển của đệ quy, là nền tảng cho **QHĐ - dynamic programing**, một kĩ thuật khá phổ biến và giải quyết được nhiều bài toán khó!
 
 ### *Nguồn tham khảo*
