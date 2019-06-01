@@ -131,7 +131,7 @@ Trong hàm đệ quy luôn có điều kiện tạo nên điểm dừng cho đ�
 > [Tôi đã học tin học như thế nào? - VNOI](http://vnoi.info/wiki/algo/basic/hoc-tin-the-nao-1)
 
 - Đệ quy được sử dụng trong hầu hết nhiều thuật toán quan trọng và các cấu trúc dữ liệu như Segment Tree/Interval Tree, cây BIT, các thuật toán trên đồ thị như BFS, DFS.
-- Chú ý tới những đặc điểm quan trọng : đó là điều kiện dừng của đệ quy, hãy nhớ thật kĩ, nếu không có điều kiện dừng, bạn sẽ không thể thoát khỏi đệ quy :v
+- Chú ý tới những đặc điểm quan trọng : đó là điều kiện dừng của đệ quy, hãy nhớ thật kĩ, nếu không có điều kiện dừng, bạn sẽ không thể thoát khỏi đệ quy :v. 
 
 ![Ví dụ về đệ quy](https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/33788776_2043965972590796_7349119704121737216_n.jpg?_nc_cat=102&_nc_oc=AQmyRMZGnYKycVG-ker0hWNEPLj7rSA_L5IopOLN1FUTwhRz8PlwYvcsVtDFvStP8BNrMeWgd86DO_o3wHHfZjyA&_nc_ht=scontent.fhph1-1.fna&oh=dc1c28378e6d92da40e22c4c06f9a312&oe=5D5A1634)
 
@@ -142,3 +142,4 @@ Trong hàm đệ quy luôn có điều kiện tạo nên điểm dừng cho đ�
 
 [2. Recursion - Wikipedia](https://en.wikipedia.org/wiki/Recursion)
 
+## Nếu bạn đọc xong bài này mà vẫn chưa hiểu đệ quy là gì :> bây giờ hãy xem phần 2 của mình tại [đây](https://phanlong2811.github.io/recursion-2) nhé! 
