@@ -20,4 +20,6 @@ comments: false
 
 *Yes, những cái trên đó và trong tầm hiểu :v haha! Như tâm niệm của [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) - người đã hack vào hệ thống MIT để public kiến thức, anh luôn cho rằng kiến thức thì luôn miễn phí để mọi người có thể tăng hiểu biết của mình!*
 > RIP anh :< tuy em mới được bạn giới thiệu về anh và bây giờ anh đã ở 1 nơi rất xa nhưng em vẫn luôn khâm phục anh :v
-Hey and contact with me : [Facebook](fb.com/ptl8210)
+
+- *Contact with me : [Phan Long](fb.com/ptl8210)*
+
