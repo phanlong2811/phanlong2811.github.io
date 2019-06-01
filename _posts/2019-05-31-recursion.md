@@ -70,7 +70,7 @@ void look_for_key(box)
 
 ## 2. Cơ chế đệ quy trong tin học
 
-Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không đơn giản và làm bạn nản :< Hãy cố gắng lên vì rất nhiều thuật toán sử dụng **đệ quy** trong tin học. Chúng ta sẽ xét cachs hoạt động của **đệ quy**, đó là cơ chế **stack** khi gọi các hàm
+Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không đơn giản và làm bạn nản :< Hãy cố gắng lên vì rất nhiều thuật toán sử dụng **đệ quy** trong tin học. Chúng ta sẽ xét cách hoạt động của **đệ quy**, đó là cơ chế **stack** khi gọi các hàm
 
 >*"Trong **khoa học máy tính**, một ngăn xếp (còn gọi là bộ xếp chồng, tiếng Anh: **stack**) là một cấu trúc dữ liệu trừu tượng hoạt động theo nguyên lý "vào sau ra trước" (Last In First Out (LIFO)"* - Wikipedia.
 
