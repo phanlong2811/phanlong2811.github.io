@@ -17,6 +17,8 @@ Khái niệm **đệ quy** đối với một lập trình viên ban đầu rấ
 
 > *Giả sử bạn đi đến phòng ngủ để thay quần áo, nhanh chóng để đi làm cho kịp giờ. Nhưng bạn thấy phòng bị khóa, và bạn biết rằng con trai 3 tuổi của mình giấu chúng trong một chiếc hộp. Mở hộp ra, bạn thấy nó bao gồm nhiều chiếc hộp con khác nữa mà bên trong chúng gồm nhiều chiếc hộp nhỏ hơn. Bạn bối rối và cần tìm cách giải quyết nhanh chóng để không bị muộn làm*
 
+![Ví dụ](https://cdn-images-1.medium.com/max/800/1*FVSUmSQEEsagXaKa_ajtvA.png)
+
 - Muốn xử lý vấn đề này, ta có 2 cách tiếp cận : "**lặp**" *(loop)* và "**đệ quy**" *(recursion)*  để tạo nên một thuật toán.
 
 ![Lặp và đệ quy](https://cdn-images-1.medium.com/max/800/1*QrQ5uFKIhK3jQSFYeRBIRg.png)
