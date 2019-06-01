@@ -8,9 +8,9 @@ comments: false
 <center> <i> Chào các bạn, mình là Phan Thành Long - một học sinh đến từ THPT Chuyên Thái Bình, tác giả của blog này <3 </i></center>
 
 ## Vì sao lại có blog này?
-- Mình không phải là **writer**, cũng không phải **developer** ( có thể tương lai nhưng hiện tại là không ), không phải một producer chuyên nghiệp, mình chỉ là 1 học sinh bình thường đến từ [THPT Chuyên Thái Bình](https://www.facebook.com/thptchuyentb/).
+- Mình không phải là **writer**, cũng không phải **developer** ( có thể tương lai nhưng hiện tại là không ), không phải một **producer** chuyên nghiệp, mình chỉ là 1 học sinh bình thường đến từ [THPT Chuyên Thái Bình](https://www.facebook.com/thptchuyentb/).
 - **Blog** này được tạo ra do sự đú đởn của mình, hay do mình quá rảnh và thích thể hiện :< 
-- Nói đùa vậy thôi :< 1 là một fan cứng của [Spiderum](https://spiderum.com/). Mình rất thích các bài viết trên đó, thích các tác giả và muốn thử viết như các anh chị :<
+- Nói đùa vậy thôi :< mình là một fan cứng của [Spiderum](https://spiderum.com/). Mình rất thích các bài viết trên đó, thích các tác giả và muốn thử viết như các anh chị :<
 - Ngoài ra mình cũng thích các trang thiên nhiều về IT như [Kipalog](https://kipalog.com/), anh [Quần Cam](https://quan-cam.com/) hay [The Full Snack](https://thefullsnack.com/) :v Ah còn cả [Nicky Case](https://ncase.me/), tý quên!
 
 ## Blog này viết gì??
