@@ -17,6 +17,7 @@ Khái niệm **đệ quy** đối với một lập trình viên ban đầu rấ
 > *Giả sử bạn đi đến phòng ngủ để thay quần áo, nhanh chóng để đi làm cho kịp giờ. Nhưng bạn thấy phòng bị khóa, và bạn biết rằng con trai 3 tuổi của mình giấu chúng trong một chiếc hộp. Mở hộp ra, bạn thấy nó bao gồm nhiều chiếc hộp con khác nữa mà bên trong chúng gồm nhiều chiếc hộp nhỏ hơn. Bạn bối rối và cần tìm cách giải quyết nhanh chóng để không bị muộn làm*
 
 - Muốn xử lý vấn đề này, ta có 2 cách tiếp cận : "**lặp**" *(loop)* và "**đệ quy**" *(recursion)*  để tạo nên một thuật toán.
+
 ![Lặp và đệ quy](https://cdn-images-1.medium.com/max/800/1*QrQ5uFKIhK3jQSFYeRBIRg.png)
 
 - Ở cách tiếp cận thứ nhất ta sử dụng một vòng lặp. Cho đến khi không còn chiếc hộp, bạn sẽ lấy ra 1 chiếc hộp từ đống hộp và mở nó ra. 
@@ -60,7 +61,7 @@ void look_for_key(box)
 ```
 > ***Phân tích*** : Ta thấy rằng ta sẽ mở chiếc hộp ra, nếu tìm thấy chìa khóa, tất nhiên là hoàn thành! Còn nếu thấy chiếc hộp, ta sẽ thực hiện lại các thao tác y như lúc ta mở chiếc hộp ban đầu!
 
-##### Qua ví dụ trên, phần nào các bạn đã có thể hình dung ra đệ quy là gì!
+#### Qua ví dụ trên, phần nào các bạn đã có thể hình dung ra đệ quy là gì!
 
 > **Đệ quy** là phương pháp sử dụng trong chương trình máy tính trong đó sử dụng một hàm gọi lại chính nó.
 
@@ -72,9 +73,10 @@ Ví dụ trên có thể khiến bạn nghĩ **đệ quy** khó hiểu, không �
 
 - **Đệ quy** thường sử dụng cơ chế stack **LIFO** - vào sau ra trước khi thực hiện gọi các hàm.
 - Khi một hàm đệ quy được gọi sau, nó sẽ đặt vào đầu ngăn xếp. Tưởng tượng bạn có một chồng sách, khi đặt lên hay bỏ ra một cuốn sách, bạn luôn ưu tiên cuốn sách trên cùng.
+
 ![stack](https://visualgo.net/img/stack_illustration.png)
 
-##### Cùng xét một ví dụ cụ thể liên quan đến *toán học*, tính giai thừa! 
+#### Cùng xét một ví dụ cụ thể liên quan đến *toán học*, tính giai thừa! 
 
 Chúng ra cũng có 2 cách tiếp cận, duyệt và *đệ quy*, nhưng ở đây ta chỉ xét đến các tiếp cận về **đệ quy**! Tôi sẽ chỉ cho bạn cơ chế hoạt động của stack trong hàm gọi đệ quy! Đầu tiên, tôi sẽ viết hàm đệ quy tính giai thừa của 1 số! 
 
@@ -88,4 +90,51 @@ int fact(int x) // factorial
 }
 ```
 - Nào giờ hãy cùng xem điều gì xảy ra khi gọi hàm tính giai thừa của 3 `fact(3)`:
+
 ![illustration](https://cdn-images-1.medium.com/max/800/1*YRkMsMPRFAt8Y9BiC0QVDg.png)
+
+ **Giải thích** : 
+    - `fact(3)` -> hàm kiểm tra  x có bằng 1 hay không, nhưng ở đây x = 3 nên biểu thức logic `x == 1` sẽ có kết quả là `false`. Khi này, hàm sẽ gọi hàm `fact(x-1)` nghĩa là `fact(2)`
+    - Lúc này, hàm được gọi `fact(2)` sẽ được đặt lên đầu stack. Ta tiếp tục thực hiện.
+
+    - `fact(2)` -> cũng tương tự như `fact(3)`, hàm kiểm tra  x có bằng 1 hay không, nhưng ở đây x = 2 nên hàm sẽ gọi hàm `fact(1)` và đặt vào stack `fact(1)`
+
+    - `fact(1)`-> hàm kiếm tra đúng bằng 1, nên kết quả sẽ trả về `1`. Khi này stack gồm 3 hàm, lấy ra hàm `fact(1)` đã nhét vào khi trước.
+
+    - Tiếp tục lấy ra hàm `fact(2)`, kết quả là `fact(2) = fact(1) * 2 = 2!`
+
+    - Cuối cùng lấy ra hàm `fact(3)`, ta thu được `fact(3) = fact(2) * 3 = 3!`
+
+- **Nhận xét** :
+Trong hàm đệ quy luôn có điều kiện tạo nên điểm dừng cho đệ quy. Nếu không có điểm dừng, đệ quy như vong lặp vô hạn vậy!
+
+#### Bạn đã tìm thấy chìa khóa chưa?
+- Quay trở lại vấn đề đầu tiên về cách tìm chiếc chìa khóa. Ta nhớ lại rằng phương pháp đầu tiên là **duyệt** dựa vào đống hộp. 
+
+![problem first](https://cdn-images-1.medium.com/max/800/1*qFezr1s9YpK6-GsMJqwhOA.png)
+
+- Ta chú ý rằng đối với **đệ quy** thì ta không có đống hộp. Thực tế, với cách tiếp cận **đệ quy**, đống hộp chính là `stack` lưu các hàm gọi!
+### **Và cám ơn đệ quy, cuối cùng ta đã đã tìm thấy chìa khóa và mở được phòng!**
+
+![end](https://cdn-images-1.medium.com/max/800/1*8Y0_goJ5oKvt1tzSX4d8Tw.png)
+
+## 3. Ứng dụng đệ quy vào các thuật toán cụ thể!
+>*"Ngày đầu tiên tôi bước vào lớp, tôi bị sốc. Bạn tôi đố nhau về toán học và tin học. Đi đâu tôi cũng nghe cái từ “lệ quy”. Bài nào cũng giải được bằng “lệ quy”. Tôi thấy cái từ này sao nó hay, nó đẹp thế. Mãi sau này tôi mới biết là tôi nghe nhầm từ “đệ quy”."*- trích 
+> [Tôi đã học tin học như thế nào? - VNOI](http://vnoi.info/wiki/algo/basic/hoc-tin-the-nao-1)
+
+
+
+
+
+
+
+
+
+
+
+
+### *Nguồn tham khảo*
+[1. How Recursion Works — explained with flowcharts and a video](https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/?fbclid=IwAR0BuND5qACD4EGKJJ2VUvgHSIR8ciO8bAF1Qql8LsphTltUGIDjXIAxkBk)
+
+[2. Recursion - Wikipedia](https://en.wikipedia.org/wiki/Recursion)
+
