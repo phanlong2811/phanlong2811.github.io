@@ -6,6 +6,7 @@ excerpt: "Đệ quy là cái mẹ gì :<"
 tags: [recursion]
 comments: false
 ---
+![Ví dụ](https://scontent.fhph1-1.fna.fbcdn.net/v/t1.0-9/61799456_2393969014170396_666795601144315904_o.jpg?_nc_cat=104&_nc_oc=AQnNhd6ImazJhphijg_OLm-fkj_9I7y71Yhh-_xFY1stpTybUDXZ0Eg0LMlwMAz7rJr6a7O-qJsoZQ4XNcF3Ua1R&_nc_ht=scontent.fhph1-1.fna&oh=f49caad9a1788087491d77dc34f385a2&oe=5D8AEE6C)
 
 *Chào các bạn, do dạo này mình hơi chán nên mình sẽ viết bài hướng dẫn cho các bạn cho đỡ buồn :< Nào let's start!*
 
