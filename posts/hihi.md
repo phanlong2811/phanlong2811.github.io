@@ -26,23 +26,31 @@ Mọi chuyện diễn ra rất suôn sẻ đúng không? Và đoạn cao trào �
 
 Trông quen không nào? Nếu bạn đã quên mất rồi thì, đó chính là A đấy. Vâng, vế phải của phương trình chính là chuỗi số ta có ban đầu. Vì thế tôi có thể thay vế phải bằng A và làm vài trò đại số trung học đơn giản và rồi bùm!
 > 1 - A = A
+
 > 1 – A + A = A + A
+
 > 1 = 2A
+
 > 1/2 = A
 
 Phương trình xinh xắn này chính là chuỗi Grandi, được đặt tên theo nhà toán học, triết gia và linh mục người Ý Guido Grandi. Đấy là tất cả nội dung của những chuỗi số này, tôi cực thích luôn ấy, dù chẳng có lịch sử cực kỳ ngầu hay những câu chuyện hấp dẫn gì đằng sau đâu. Tuy vậy, nó đã mở ra cánh cửa để ta chứng minh rất nhiều những thứ hấp dẫn khác, bao gồm cả một phương trình quan trọng trong cơ học lượng tử và thậm chí là lý thuyết dây nữa kia. Nhưng ấy là chuyện về sau. Giờ thì, ta sẽ chứng minh tiếp 2 nào: 1 – 2 + 3 – 4 + 5 – 6⋯ = 1/4.
 Bắt đầu như trên tôi, đã đặt chuỗi B = 1 – 2 + 3 – 4 + 5 – 6⋯. Và giờ ta bắt đầu nghịch ngợm chút được rồi. Lần này, thay vì lấy 1 trừ cho B, ta sẽ lấy A trừ B và thu được:
 > A - B = (1 – 1 + 1 – 1 + 1 – 1⋯) — (1 – 2 + 3 – 4 + 5 – 6 ⋯)
+
 > A - B = (1 – 1 + 1 – 1 + 1 – 1⋯) — 1 + 2 – 3 + 4 – 5 + 6⋯
 
 Ta sẽ đổi chỗ các số hạng một chút, và thấy nhiều quy tắc thú vị xuất hiện.
 > A - B = (1 – 1) + (–1 + 2) + (1 – 3) + (–1 + 4) + (1 – 5) + (–1 + 6)⋯
+
 > A - B = 0 + 1 – 2 + 3 – 4 + 5⋯
 
 Và lại một lần nữa, ta có được chuỗi số mình đặt ra từ đầu, và ở trên kia, ta đã chứng minh được A = 1/2, vì thế ta dùng thêm một chút kiến thức đại số cơ bản và thu được mệnh đề kinh ngạc thứ hai này.
 > A - B = B
+
 > A = 2B
+
 > 1/2 = 2B
+
 > 1/4 = B
 
 Ô kìa! Phương trình này không có cái tên mỹ miều nào cả, vì nhiều nhà toán học đã chứng minh được trong nhiều năm rồi, nó vẫn luôn được coi là một nghịch lý toán học. Đã có tranh luận nảy lửa trong giới học thuật vào khoảng thời gian đó liên quan đến phương trình này dù nó đã góp phần mở rộng nghiên cứu của Euler về bài toán Basel và tạo ra các hàm số quan trọng như hàm Zeta Reimann.
@@ -51,17 +59,23 @@ Giờ thì đến đoạn thăng hoa mà bạn vẫn chờ đợi này. Ta lại
 
 Và toán học vẫn chưa hết tuyệt vời đâu, ta sẽ sắp xếp lại thứ tự một vài số hạng để tạo ra thứ gì đấy quen quen, nhưng có thể không phải cái mà bạn đang ngờ đâu.
 > B - C = (1 - 2 + 3 - 4 + 5 - 6⋯) - 1 - 2 - 3 - 4 - 5 - 6⋯
+
 > B - C = (1 - 1) + (-2 - 2) + (3 - 3) + (-4 - 4) + (5 - 5) + (-6 - 6) ⋯
+
 > B - C = 0 - 4 + 0 - 8 + 0 - 12⋯
+
 > B - C = -4 - 8 - 12⋯
 
 Không ngờ đúng không? Nhưng cứ chờ tiếp đi, vẫn còn một vài chiêu cuối khiến mọi thứ đáng xem đây nè. Nếu bạn có để ý một xíu thì, từng số hạng ở vế phải đều là bội của -4, ta sẽ tách nhân tử đó ra, và nhìn xem, lại xuất hiện phương trình ban đầu nè.
 > B - C = -4(1 + 2 + 3)⋯
+
 > B - C = -4C
+
 > B = -3C
 
 Và vì đã tính được B = 1/4, nên ta chỉ việc thế vào phương trình trên thôi:
 > 1/4 = -3C
+
 > 1/-12 = C hay C = -1/12
 
 Giờ thì, lý do gì khiến phương trình trên quan trọng tới vậy. Với người chưa biết thì, nó được dùng trong lý thuyết dây đó. Không may là chẳng phải thứ Stephen Hawking vẫn dùng đâu, nhưng phần lý thuyết dây ban đầu lại nhắc đến nó (Lý thuyết Dây Boson). Hơi buồn khi lý thuyết dây Boson hiện đã trở nên lỗi mốt bởi chuyên ngành được ưa thích hiện nay có tên gọi lý thuyết dây siêu đối xứng, song lý thuyết dây ban đầu ấy vẫn rất hữu ích trong việc thấu hiểu các siêu dây (superstring) - phần không thể thiếu trong lý thuyết dây hiện đại mà ta vừa nhắc đến.
