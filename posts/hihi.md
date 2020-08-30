@@ -1,7 +1,6 @@
 
 ### TỔNG RAMANUJAN: 1 + 2 + 3 + ⋯ + ∞ = -1/12?
 #### Mark Dodds
-L: 1700 word
 =========
 > “Con đang nói cái quái gì vậy? Thứ này không thể nào đúng được đâu!” — Mẹ tôi
 
