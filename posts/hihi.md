@@ -12,8 +12,10 @@ Nếu bạn chưa quen với chuỗi số có tên gọi Tổng Ramanujan thì, 
 > ζ(-1) = 1 + 2 + 3 + 4 + ..... = -1/12
 
 Không tin tôi ư? Cứ đọc tiếp để nhìn cách tôi làm nhé, tôi sẽ chứng minh hai mệnh đề điên không kém đâu:
-1. 1 – 1 + 1 – 1 + 1 – 1 ⋯ = 1/2
-2. 1 – 2 + 3 – 4 + 5 – 6 ⋯ = 1/4
+> 1. 1 – 1 + 1 – 1 + 1 – 1 ⋯ = 1/2
+
+> 2. 1 – 2 + 3 – 4 + 5 – 6 ⋯ = 1/4
+
 Đầu tiên, phải chuẩn bị trước đã. Phép màu đích thực sắp xảy ra rồi này, thực tế thì ta không chứng minh được hai mệnh đề kia mà không có đoạn này đâu.
 Tôi sẽ bắt đầu với một chuỗi số A, bằng 1 – 1 + 1 – 1 + 1 – 1 được lặp lại vô số lần. Tôi viết nó dưới dạng:
 > A = 1 – 1 + 1 – 1 + 1 – 1⋯
